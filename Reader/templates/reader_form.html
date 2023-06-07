@@ -1,1 +1,6 @@
-<h1>Yello</h1>
+<form action="/book/" method="post">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="Submit">
+
+</form>
